@@ -14,7 +14,7 @@
 ## 🎯 Project Overview
 
 An end-to-end machine learning system that predicts loan approval decisions with:
-- **78% AUC-ROC** using tuned XGBoost classifier
+- **88% AUC-ROC** using Random Forest & Logistic Regression
 - **SHAP-based explainability** for transparent decision-making
 - **Fairness analysis** across gender, education, and property area
 - **Production-ready Streamlit app** for real-time predictions
@@ -120,11 +120,10 @@ streamlit run app.py
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |-------|----------|-----------|--------|----------|---------|
-| **XGBoost (Tuned)** | **0.813** | **0.855** | **0.889** | **0.872** | **0.781** |
-| LightGBM | 0.797 | 0.841 | 0.889 | 0.864 | 0.773 |
-| CatBoost | 0.805 | 0.849 | 0.889 | 0.869 | 0.769 |
-| Random Forest | 0.789 | 0.831 | 0.889 | 0.859 | 0.761 |
-| Logistic Regression | 0.789 | 0.838 | 0.877 | 0.857 | 0.749 |
+| **Random Forest** | **0.870** | **0.888** | **0.929** | **0.908** | **0.876** |
+| Logistic Regression | 0.870 | 0.848 | 0.988 | 0.913 | 0.876 |
+| LightGBM | 0.829 | 0.881 | 0.871 | 0.876 | 0.844 |
+| XGBoost | 0.813 | 0.869 | 0.859 | 0.864 | 0.842 |
 
 ### ROC Curve
 ![ROC Curves](reports/figures/roc_curves.png)
