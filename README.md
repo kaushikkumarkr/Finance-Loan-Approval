@@ -219,14 +219,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
-
-**Your Name** - your.email@example.com
-
-Project Link: [https://github.com/yourusername/loan-approval-prediction](https://github.com/yourusername/loan-approval-prediction)
-
----
-
 ## ⭐ Acknowledgments
 
 - [Analytics Vidhya](https://www.analyticsvidhya.com/) for the dataset
