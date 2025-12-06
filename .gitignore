@@ -1,0 +1,35 @@
+# System files
+.DS_Store
+.MacOS
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Model logs
+catboost_info/
+lightning_logs/
+wandb/
+
+# Large data (optional, but keeping small csvs for portfolio)
+# data/
+
+# Streamlit
+.streamlit/secrets.toml
