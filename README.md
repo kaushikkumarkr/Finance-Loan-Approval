@@ -27,7 +27,7 @@ This project demonstrates an enterprise-grade approach to automated credit risk 
 
 ## 📊 Data Source
 The dataset used for this project is the **Finance Loan Approval Prediction Data** sourced from Kaggle.
-- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/krishnaraj30/finance-loan-approval-prediction-data/code)
+- **Source**: [https://www.kaggle.com/datasets/krishnaraj30/finance-loan-approval-prediction-data/data]
 - **Records**: 614 Training, 367 Test
 - **Features**: 13 (including target)
 
